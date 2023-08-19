@@ -2,70 +2,70 @@
     "cufflinks": [
         {
           "productName": "Product 1",
-          "id" : "1"
-          "price": 29.99,
+          "id" : 1,
+          "price" : 29.99,
           "description": "This is a great product for your needs.",
           "image": "./images/cufflinks/cufflink10.webp"
         },
         {
           "productName": "Product 2",
-          "id" : "2"
+          "id" : 2,
           "price": 29.99,
           "description": "This is a great product for your needs.",
           "image": "./images/cufflinks/cufflink11.webp"
         },
         {
           "productName": "Product 3",
-          "id" : "3"
+          "id" : 3,
           "price": 29.99,
           "description": "This is a great product for your needs.",
           "image": "./images/cufflinks/cufflink12.webp"
         },
         {
           "productName": "Product 4",
-          "id" : "4"
+          "id" : 4,
           "price": 29.99,
           "description": "This is a great product for your needs.",
           "image": "./images/cufflinks/cufflink13.webp"
         },
         {
           "productName": "Product 5",
-          "id" : "5"
+          "id" : 5,
           "price": 29.99,
           "description": "This is a great product for your needs.",
           "image": "./images/cufflinks/cufflink14.webp"
         },
         {
           "productName": "Product 6",
-          "id" : "6"
+          "id" : 6,
           "price": 29.99,
           "description": "This is a great product for your needs.",
           "image": "./images/cufflinks/cufflink15.webp"
         },
         {
           "productName": "Product 7",
-          "id" : "7"
+          "id" : 7,
           "price": 29.99,
           "description": "This is a great product for your needs.",
           "image": "./images/cufflinks/cufflink16.webp"
         },
         {
           "productName": "Product 8",
-          "id" : "8"
+          "id" : 8,
           "price": 29.99,
           "description": "This is a great product for your needs.",
           "image": "./images/cufflinks/cufflink3.webp"
         },
         {
           "productName": "Product 9",
-          "id" : "9"
+          "id" : 9,
           "price": 29.99,
           "description": "This is a great product for your needs.",
           "image": "./images/cufflinks/cufflink4.webp"
         },
         {
           "productName": "Product 10",
-          "id" : "10"
+          "id" : 10,
           "price": 29.99,
           "description": "This is a great product for your needs.",
           "image": "./images/cufflinks/cufflink12.webp"

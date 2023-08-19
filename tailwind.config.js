@@ -1,6 +1,5 @@
-/** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./**/*.{html,js}"],
+  content: ['./*/*.html', ],
   theme: {
     extend: {
       colors: {
@@ -10,10 +9,10 @@ module.exports = {
         'primaryFont': ['EB Garamond', 'serif'],
         'secondaryFont': ['Poppins', 'sans-serif'],
       },
-    },
+    },    
   },
-  plugins: [],
   daisyui: {
     themes: ["light", "dark", "cupcake"],
   },
-};
+  plugins: [require("daisyui")],
+}
