@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="cupcake">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mehrab</title>
+    <link href="/dist/output.css" rel="stylesheet">
+    <link rel="shortcut icon" href=".images/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700;800&family=Poppins:wght@400;500;600;700;800&display=swap">
+</head>
+<body>
+  <!-- navbar -->
+  <div class="navbar bg-gray-200">
+      <div class="navbar-start">
+        <div class="dropdown">
+          <label tabindex="0" class="btn btn-ghost btn-circle ">
+              <i class="fa-solid fa-bars text-xl sm:text-2xl"></i>              
+          </label>
+          <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+            <li><a>Home</a></li>
+            <li><a>About</a></li>
+          </ul>
+        </div>
+        <button class="btn btn-ghost btn-circle">
+          <i class="fa-solid fa-user text-xl sm:text-2xl"></i>
+      </button>
+      </div>
+      <div class="navbar-center">
+          <img src="../images/logo (1).png" alt="mehrab logo" class="object-scale-down w-8 h-8">
+          <!-- <h1 class="text-2xl sm:text-4xl font-primaryFont">MEHRAB</h1> -->
+      </div>
+      <div class="navbar-end">                        
+          <div class="drawer drawer-end ">
+              <input id="my-drawer-2" type="checkbox" class="drawer-toggle" />
+              <div class="drawer-content flex flex-col items-end justify-center">
+                <!-- Page content here -->
+                <label for="my-drawer-2" class="btn btn-ghost drawer-button">
+                  <!-- Move the icon to the end -->
+                  <i class="fa-solid fa-cart-shopping text-xl sm:text-2xl"></i>
+                </label>                                  
+              </div> 
+              <div class="drawer-side">
+                <label for="my-drawer-2" class="drawer-overlay"></label> 
+                <ul class="menu p-4 w-80 h-full bg-base-200 text-base-content">
+                  <!-- Sidebar content here -->
+                  <li><a>Sidebar Item 1</a></li>
+                  <li><a>Sidebar Item 2</a></li>
+                </ul>                
+              </div>
+          </div>              
+      </div>
+  </div>
+  <!-- navbar ends -->
+  <!-- Social Sharing Bar -->
+  <div class="fixed left-0 top-1/4 z-50 px-1 py-3 bg-transparent flex flex-col space-y-3">
+    <!-- WhatsApp -->
+    <a href="#" title="find mehrab on WhatsApp">
+      <i class="fa-brands fa-whatsapp  text-green-900 text-4xl"></i>
+    </a>
+    <!-- Instagram -->
+    <a href="#" title="find mehrab on Instagram">
+      <i class="fa-brands fa-instagram  text-blue-700 text-4xl"></i>
+    </a>
+    <!-- Facebook -->
+    <a href="#" title="find mehrab on Facebook">
+      <i class="fa-brands fa-facebook  text-blue-700 text-4xl"></i>
+    </a>
+    <!-- Twitter -->
+    <a href="#" title="find mehrab on Twitter">
+      <i class="fa-brands fa-twitter  text-blue-700 text-4xl"></i>
+    </a>
+  </div>
+  <!-- Social Sharing Bar ends-->
+  <!-- hero section  -->
+  <section class=" grid grid-cols-3 gap-2 md:gap-4 ml-12 mr-1 md:mr-4 my-2 lg:h-3/5">
+    <!-- left side of hero -->
+    <div class="grid grid-rows-2 gap-2 md:gap-4">
+      <div class="bg-[url('../images/cufflinks/cufflink10.webp')] bg-cover bg-center bg-no-repeat rounded-lg">        
+        
+      </div>
+      <div class="bg-[url('../images/cufflinks/cufflink16.webp')] bg-cover bg-center bg-no-repeat rounded-lg">
+      </div>
+    </div>
+    <!-- right side of hero -->
+    <div class="col-span-2">
+      <img src="../images/rings/ring3.jpg" alt="" class="rounded-lg relative">
+    </div>
+
+  </section>
+  <!-- hero section ends -->
+  <script src="script.js"></script>
+</body>
+</html>
